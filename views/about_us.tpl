@@ -1,4 +1,4 @@
-<div id="about">
+<div id="about-us">
 	<div class="body-container">
 		<div class="container">
 			<div class="body-content" >

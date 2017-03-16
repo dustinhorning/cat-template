@@ -38,6 +38,11 @@
 				</div>
 			</div>
 		</div>
+		(**<div class="row">
+			<div class="col-md-12">
+				<a class="btn btn-primary" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?referralCode={{ clippings.petdesk_ref_code }}"  >Request Appointment</a>
+			</div>
+		</div>**)
 	</div>
 </section>
 

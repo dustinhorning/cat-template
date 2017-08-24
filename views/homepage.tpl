@@ -8,8 +8,9 @@
 				{{ if {slide.background_video} }}
 				<div class=""  >
 
-					<header style="{{ if {slide.horizontal_alignment_for_mobile} }}background-position: {{ slide.horizontal_alignment_for_mobile }};{{ end-if }}" data-vide-bg="mp4: {{ slide.background_video.getMediaURL() }}{{if {slide.background_image} }}, poster: {{slide.background_image.getImage(2500)}}{{ end-if }}" data-vide-options=" loop: true, muted: true, position: 50% 50%">
-						<div class="cr" >
+					<header style="background-image:url('{{slide.background_image.getImage(2500)}}');background-position:{{slide.horizontal_alignment_for_mobile}};" >
+				<video autoplay="" loop="" muted="" class="hidden-sm-down" style="margin: auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); visibility: visible; opacity: 1; width: 100%"><source src="{{ slide.background_video.getMediaURL() }}" type="video/mp4"></video>
+				<div class="cr bg-overlay" style="position:relative;"  >
 							<div class="cc" >
 								<div class="container">
 									<div class="intro-text">
@@ -74,6 +75,9 @@
 					pauseOnHover: false,
 					pauseOnFocus: false,
 				});
+				$("video").each(function(){
+				$(this).get(0).play();
+			});
 			});
 		</script>
 		{{ include script-bg-vid }}

@@ -61,7 +61,7 @@
 								{{bootstrap.navigation(nav navbar-nav,1)}}
 							</div>
 							<div class="desktop">
-								{{bootstrap.navigation(nav navbar-nav,2)}}
+								{{bootstrap.navigation(nav navbar-nav,1)}}
 							</div>
 						</div>
 					</div>

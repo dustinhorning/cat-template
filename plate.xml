@@ -364,14 +364,14 @@
           <!-- CONTACT US END -->
 
           <!-- 3. RESOURCES -->
-          <templateset name="resources" name_friendly="Careers" view="resources">
+          <templateset name="resources" name_friendly="Reservations" view="resources">
               <fields>
                   <text name="page_title" name_friendly="Page Title" required="1" />
                   <images name="main_image" name_friendly="Main Image" limit="1" />
                   <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
               </fields>
               <items>
-                  <item link_title="Careers" path_part="resources">
+                  <item link_title="Reservations" path_part="resources">
                       <page_title><![CDATA[Resources]]></page_title>
                       <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/patient-resources-home.BJ7qWhOL_x.jpg]]></main_image>
                       <body_text>
@@ -778,14 +778,14 @@
           <!-- SERVICES END -->
 
           <!-- 7. ABOUT US -->
-          <templateset name="about_us" name_friendly="About Us" view="about_us">
+          <templateset name="about_us" name_friendly="Menu" view="about_us">
               <fields>
                   <text name="page_title" name_friendly="Page Title" required="1"/>
                   <images name="main_image" name_friendly="Main Image" limit="1" />
                   <wysiwyg_advanced name="body_text" name_friendly="Body Text" />
               </fields>
               <items>
-                  <item link_title="About Us" path_part="about-us">
+                  <item link_title="Menu" path_part="about-us">
                       <page_title><![CDATA[About Us]]></page_title>
                       <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/about-us-hero.ry5b3_8_e.jpg]]></main_image>
                       <body_text>

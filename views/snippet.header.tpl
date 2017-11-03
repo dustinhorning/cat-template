@@ -26,7 +26,7 @@
 						<!-- /.navbar-collapse -->
 					</div>
 					<div class="col-sm-4" >
-						<a class="btn btn-primary pull-right" style="font-size: {{ clippings.request_btn_font_size }}px;" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?referralCode={{ clippings.petdesk_ref_code }}"  >Request Appointment</a>
+						<a class="btn btn-primary pull-right" style="font-size: {{ clippings.request_btn_font_size }}px;" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?referralCode={{ clippings.petdesk_ref_code }}"  >Make Reservation</a>
 					</div>
 				</div>
 			</div>

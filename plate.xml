@@ -209,7 +209,7 @@
             <items>
               <item>
                 <image_title><![CDATA[Care Packages]]></image_title>
-                <image><![CDATA[https://zx1y7z.media.zestyio.com/bottle-service.jpg]]></image>
+                <image><![CDATA[https://zx1y7z.media.zestyio.com/bottle-service.f22ae09f0b7fa2de1726e23c3458bb7a.jpg]]></image>
                 <image_caption><![CDATA[]]></image_caption>
                 <button_text><![CDATA[RESERVE NOW]]></button_text>
                 <links_to><![CDATA[501]]></links_to>
@@ -217,7 +217,7 @@
               </item>
               <item>
                 <image_title><![CDATA[The Best Events]]></image_title>
-                <image><![CDATA[https://zx1y7z.media.zestyio.com/events.jpg]]></image>
+                <image><![CDATA[https://zx1y7z.media.zestyio.com/events.f22ae09f0b7fa2de1726e23c3458bb7a.jpg]]></image>
                 <image_caption></image_caption>
                     <button_text><![CDATA[Join the Fun]]></button_text>
                     <links_to><![CDATA[501]]></links_to>
@@ -225,7 +225,7 @@
               </item>
               <item>
                 <image_title><![CDATA[Tour Our Club]]></image_title>
-                <image><![CDATA[https://zx1y7z.media.zestyio.com/sliderimage4.jpg]]></image>
+                <image><![CDATA[https://zx1y7z.media.zestyio.com/sliderimage4.f22ae09f0b7fa2de1726e23c3458bb7a.jpg]]></image>
                 <image_caption></image_caption>
                     <button_text><![CDATA[View Our Gallery]]></button_text>
                     <links_to><![CDATA[501]]></links_to>

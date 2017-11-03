@@ -6,7 +6,7 @@
 				<p>{{ contact_us.first().address_one }}</p>
 				<p>{{ contact_us.first().address_two }}</p>
 				<p>{{ contact_us.first().address_three }}</p>
-				<a class="btn btn-primary desktop" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?referralCode={{ clippings.petdesk_ref_code }}"  >Request Appointment</a>
+				<a class="btn btn-primary desktop" id="request" href="https://dashboard.petdesk.com/WebApptRequest/?referralCode={{ clippings.petdesk_ref_code }}"  >Make Reservation</a>
 				<br>
 				<p>{{ contact_us.first().general_info_one }}</p>
 				<p>{{ contact_us.first().phone_number_one}}</p>

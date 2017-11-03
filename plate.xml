@@ -17,16 +17,15 @@
         </head>
         <!-- CLIPPINGS -->
         <clippings>
-            <text name="site_name" name_friendly="Site Name" required="1"><![CDATA[Zesty Pet Clinic]]></text>
+            <text name="site_name" name_friendly="Site Name" required="1"><![CDATA[RCI Hospitality Demo]]></text>
             <images name="logo" name_friendly="Site Logo" limit="1" />
             <text name="logo_height" name_friendly="Logo Height (pixels)"><![CDATA[50]]></text>
             <text name="below_logo_text" name_friendly="Below Logo Text"><![CDATA[]]></text>
             <text name="social_media_icon_height" name_friendly="Social Media Icon(s) Height (pixels)"><![CDATA[16]]></text>
             <text name="request_btn_font_size" name_friendly="Request Button Font Size (pixels)"><![CDATA[12]]></text>
-            <text name="footer_text" name_friendly="Footer Text"><![CDATA[PetDesk with Zesty.io]]></text>
-            <text name="phone" name_friendly="Main Phone"><![CDATA[555-555-5555]]></text>
+            <text name="footer_text" name_friendly="Footer Text"><![CDATA[RCI Hospitality Demo]]></text>
+            <text name="phone" name_friendly="Main Phone"><![CDATA[(212) 372-0850]]></text>
             <text name="telephone_number_height" name_friendly="Telephone Number Height (pixels)"><![CDATA[16]]></text>
-            <text name="petdesk_ref_code" name_friendly="Petdesk Reference Code"><![CDATA[1359]]></text>
             <wysiwyg_advanced name="pop_up_content" name_friendly="Pop-up Content"><![CDATA[]]></wysiwyg_advanced>
         </clippings>
         <ingredients>
@@ -97,14 +96,9 @@
             </fields>
             <items>
               <item>
-                <logo_title><![CDATA[Zesty Clinic Logo]]></logo_title>
-                <footer_logo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/zesty_footer_logo.png]]></footer_logo>
+                <logo_title><![CDATA[RCI Hospitality Demo Logo]]></logo_title>
+                <footer_logo><![CDATA[https://zx1y7z.media.zestyio.com/logo.png]]></footer_logo>
                 <sort_order><![CDATA[1]]></sort_order>
-              </item>
-              <item>
-                <logo_title><![CDATA[Golden Seal]]></logo_title>
-                <footer_logo><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/gold_seal_logo.png]]></footer_logo>
-                <sort_order><![CDATA[2]]></sort_order>
               </item>
             </items>
           </dataset>
@@ -123,13 +117,13 @@
               </fields>
               <items>
                   <item link_title="Home" path_part="zesty_home">
-                    <homepage_title><![CDATA[]]></homepage_title>
+                    <homepage_title><![CDATA[Rick's Cabaret New York]]></homepage_title>
                     <!-- Squares Section -->
-                    <background_pattern><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/squares-bg-5.jpg]]></background_pattern>
+                    <background_pattern><![CDATA[https://zx1y7z.media.zestyio.com/bigstock-Purple-Background-2603597.jpg]]></background_pattern>
                     <!-- Timeline text -->
-                    <timeline_title><![CDATA[Pet Care for Every Age]]></timeline_title>
-                    <timeline_subtitle><![CDATA[We offer the best care for pets of all ages]]></timeline_subtitle>
-                    <timeline_button_text><![CDATA[Discover our services]]></timeline_button_text>
+                    <timeline_title><![CDATA[]]></timeline_title>
+                    <timeline_subtitle><![CDATA[]]></timeline_subtitle>
+                    <timeline_button_text><![CDATA[]]></timeline_button_text>
                     <timeline_btn_links_to><![CDATA[503]]></timeline_btn_links_to>
                   </item>
               </items>
@@ -147,13 +141,23 @@
                     <sort name="sort_order" name_friendly="Sort Order" list="1" />
                 </fields>
                 <items>
-                    <item link_title="Special Offers" path_part="">
-                        <title><![CDATA[After-Hours Emergencies?]]></title>
-                        <second_line><![CDATA[Call</br>1-800-555-5555]]></second_line>
+                    <item link_title="Number 1" path_part="">
+                        <title><![CDATA[THE No.1 GENTLEMEN'S CLUB]]></title>
+                        <second_line><![CDATA[FEATURING BEAUTIFUL WOMEN DAILY]]></second_line>
                         <background_video></background_video>
-                        <background_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/home-hero.HyfKW2OUul.jpeg]]></background_image>
+                        <background_image><![CDATA[https://zx1y7z.media.zestyio.com/sliderimage1.jpg]]></background_image>
                         <horizontal_alignment_for_mobile><![CDATA[Center]]></horizontal_alignment_for_mobile>
-                        <button_text><![CDATA[Contact Us]]></button_text>
+                        <button_text><![CDATA[Book Your Reservation]]></button_text>
+                        <links_to><![CDATA[521]]></links_to>
+                        <sort_order><![CDATA[1]]></sort_order>
+                    </item>
+                    <item link_title="voted" path_part="">
+                        <title><![CDATA[VOTED ]]></title>
+                        <second_line><![CDATA[THE #1 CLUB IN AMERICA]]></second_line>
+                        <background_video></background_video>
+                        <background_image><![CDATA[https://zx1y7z.media.zestyio.com/sliderimage2.jpg]]></background_image>
+                        <horizontal_alignment_for_mobile><![CDATA[Center]]></horizontal_alignment_for_mobile>
+                        <button_text><![CDATA[View Upcoming Events]]></button_text>
                         <links_to><![CDATA[521]]></links_to>
                         <sort_order><![CDATA[1]]></sort_order>
                     </item>
@@ -205,25 +209,25 @@
             <items>
               <item>
                 <image_title><![CDATA[Care Packages]]></image_title>
-                <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/squares-carepkg.ByxY-nO8ug.jpeg]]></image>
-                <image_caption><![CDATA[<p>We offer care packages for each stage of life.</p>]]></image_caption>
-                <button_text><![CDATA[Learn More]]></button_text>
+                <image><![CDATA[https://zx1y7z.media.zestyio.com/bottle-service.jpg]]></image>
+                <image_caption><![CDATA[]]></image_caption>
+                <button_text><![CDATA[RESERVE NOW]]></button_text>
                 <links_to><![CDATA[501]]></links_to>
                 <sort_order><![CDATA[1]]></sort_order>
               </item>
               <item>
-                <image_title><![CDATA[Day Care]]></image_title>
-                <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/squares-daycare.S1KZ3_Lue.jpeg]]></image>
+                <image_title><![CDATA[The Best Events]]></image_title>
+                <image><![CDATA[https://zx1y7z.media.zestyio.com/events.jpg]]></image>
                 <image_caption></image_caption>
-                    <button_text><![CDATA[Learn More]]></button_text>
+                    <button_text><![CDATA[Join the Fun]]></button_text>
                     <links_to><![CDATA[501]]></links_to>
                 <sort_order><![CDATA[2]]></sort_order>
               </item>
               <item>
-                <image_title><![CDATA[Services]]></image_title>
-                <image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/squares-services.HytZ3_Idx.jpeg]]></image>
+                <image_title><![CDATA[Tour Our Club]]></image_title>
+                <image><![CDATA[https://zx1y7z.media.zestyio.com/sliderimage4.jpg]]></image>
                 <image_caption></image_caption>
-                    <button_text><![CDATA[Learn More]]></button_text>
+                    <button_text><![CDATA[View Our Gallery]]></button_text>
                     <links_to><![CDATA[501]]></links_to>
                 <sort_order><![CDATA[3]]></sort_order>
               </item>
@@ -241,10 +245,10 @@
             </fields>
             <items>
               <item>
-                <about_section_title><![CDATA[Zesty Pet Clinic]]></about_section_title>
-                <about_section_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/home-about-section2.png]]></about_section_image>
-                <about_section_copy><![CDATA[<p>From pre-appointment to post-appointment we take care of you every step of the way. We ensure that your pet is well cared for and that you can be comfortable with the decisions that you're making because you're well-informed of all your options. We'll treat your companion with compassionate care.</p>]]></about_section_copy>
-                <about_section_button_txt><![CDATA[Learn More]]></about_section_button_txt>
+                <about_section_title><![CDATA[Come and see why Playboy says Rick’s Cabaret is New York’s #1 Gentlemen’s Club.]]></about_section_title>
+                <about_section_image><![CDATA[https://zx1y7z.media.zestyio.com/bigstock-Portrait-of-beautiful-female-m-15747278.png]]></about_section_image>
+                <about_section_copy><![CDATA[<p>Welcome to Rick’s Cabaret & Steakhouse - New York City’s #1 gentlemen’s club. Rick’s Cabaret New York is conveniently located in the heart of midtown Manhattan between New York’s Empire State Building and the world famous Madison Square Garden. Every guest who enters is welcomed by our friendly door staff and walked down a red carpet entrance to 10,000 square feet of world class entertainment. Spanning over 4 levels, Rick’s creates a fresh, new atmosphere on each floor. Rick’s Cabaret features over 100 of the world’s most beautiful entertainers daily, as well as a top-rated steakhouse. Rick’s Cabaret is proud to have earned a number of awards reflecting the finest entertainment and service in the Northeast U.S.</p>]]></about_section_copy>
+                <about_section_button_txt><![CDATA[Continue Reading]]></about_section_button_txt>
                 <about_section_btn_links_to><![CDATA[501]]></about_section_btn_links_to>
                 <sort_order><![CDATA[1]]></sort_order>
               </item>
@@ -290,18 +294,18 @@
               <items>
                   <item link_title="Contact Us" path_part="contact-us" parent_item="contact-us">
                       <page_title><![CDATA[Contact Us]]></page_title>
-                      <main_image><![CDATA[https://cdb368edefc437a74249-428b2f4da1bce612540a137d021c11ad.ssl.cf2.rackcdn.com/contact-us-hero-2.jpeg]]></main_image>
-                      <address_one><![CDATA[Zesty Pet Clinic]]></address_one>
-                      <address_two><![CDATA[1045 Sixth Avenue]]></address_two>
-                      <address_three><![CDATA[San Diego, CA 92101]]></address_three>
-                      <general_info_one><![CDATA[For general information, questions, appointment requests, call us at:]]></general_info_one>
-                      <phone_number_one><![CDATA[555-555-5555]]></phone_number_one>
-                      <general_info_two><![CDATA[For after-hour emergencies, call our on-call doctor at:]]></general_info_two>
-                      <phone_number_two><![CDATA[1-800-555-5555]]></phone_number_two>
+                      <main_image><![CDATA[https://zx1y7z.media.zestyio.com/bigstock-Beautiful-Woman-Speaking-Via-V-211273366.jpg]]></main_image>
+                      <address_one><![CDATA[50 West 33rd Street ]]></address_one>
+                      <address_two><![CDATA[New York, New York 10001]]></address_two>
+                      <address_three><![CDATA[]]></address_three>
+                      <general_info_one><![CDATA[For more information about our packages or the club, please call or use the email below.]]></general_info_one>
+                      <phone_number_one><![CDATA[(212) 372-0850]]></phone_number_one>
+                      <general_info_two><![CDATA[To become a Rick's entertainer or to apply for other employment opportunities, visit our career page or call for more information.]]></general_info_two>
+                      <phone_number_two><![CDATA[]]></phone_number_two>
                       <hours_title><![CDATA[Hours]]></hours_title>
-                      <special_hours_info><![CDATA[Special Holiday Hours: We'll be closing at 3pm Christmas Eve and New Years Eve. We'll be closed on Thanksgiving, Christmas and New Years Day.]]></special_hours_info>
-                      <general_info_three><![CDATA[We're available for holiday boarding. Call us for more information.]]></general_info_three>
-                      <google_map_embed><![CDATA[<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3356.860843071991!2d-117.16122958492363!3d32.7163252809904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d954a79ef0967f%3A0x74a5fd5ef322db6f!2sZesty.io!5e0!3m2!1sen!2sus!4v1480742044074" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>]]></google_map_embed>
+                      <special_hours_info><![CDATA[]]></special_hours_info>
+                      <general_info_three><![CDATA[]]></general_info_three>
+                      <google_map_embed><![CDATA[<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.6142090311278!2d-73.98963188459392!3d40.74851377932789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a91f4358d9%3A0x37dd7af5410ba7fd!2sRick&#39;s+Cabaret!5e0!3m2!1sen!2sus!4v1509648025757" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>]]></google_map_embed>
                   </item>
               </items>
           </templateset>
